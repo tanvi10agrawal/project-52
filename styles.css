@@ -1,0 +1,74 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    background-image: url("polkadot2.jpg");
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family:Quicksand;
+    
+}
+
+a:link{
+    color:white
+}
+
+.menu{
+    margin-right: 10px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.origami{
+    position: relative;
+}
+
+.origami p{
+    position: absolute;
+    top: 1%;
+    left: 22%;
+    transform: translate(-0%,-0%);
+    opacity: 0;
+}
+
+.origami:hover p{
+    opacity: 1;
+    color:white
+}
+
+.origami:hover img{
+    opacity: 0.33;
+
+}
+
+
